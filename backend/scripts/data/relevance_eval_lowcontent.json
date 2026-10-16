@@ -1,0 +1,88 @@
+[
+ {
+  "context": {
+   "topic": "Operating System Deadlocks",
+   "objectives": "Understand deadlock prevention, detection, and Banker's algorithm."
+  },
+  "examples": [
+   {
+    "label": "RELEVANT",
+    "title": "Banker's Algorithm Explained | Deadlock Avoidance in OS",
+    "description": "Worked example of the safety algorithm and resource-request algorithm with allocation and need matrices."
+   },
+   {
+    "label": "RELEVANT",
+    "title": "Deadlock Detection and Recovery - Operating Systems Lecture 12",
+    "description": "Wait-for graphs, detecting cycles, and recovering by process termination or resource preemption."
+   },
+   {
+    "label": "RELEVANT",
+    "title": "Coffman conditions and how to prevent deadlock",
+    "description": "Mutual exclusion, hold and wait, no preemption and circular wait."
+   },
+   {
+    "label": "PARTIALLY_RELEVANT",
+    "title": "Process Scheduling Algorithms in OS | Round Robin, SJF",
+    "description": "CPU scheduling policies, waiting time and turnaround time in operating systems."
+   },
+   {
+    "label": "PARTIALLY_RELEVANT",
+    "title": "Intro to multithreading and race conditions",
+    "description": "Threads, shared memory, mutexes and critical sections."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Grand final highlights | Squad wins the tournament | Mobile esports semi finals",
+    "description": "Best clutch plays and kills from day 1 of the semi finals."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Top 10 Bollywood songs of the year",
+    "description": "Official music video compilation."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Easy chicken biryani recipe at home",
+    "description": "Step by step cooking tutorial with basmati rice and spices."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Stranger Things season finale reaction",
+    "description": "Spoiler-filled reaction and ending explained."
+   }
+  ]
+ },
+ {
+  "context": {
+   "topic": "Photosynthesis",
+   "objectives": "Learn the light-dependent reactions and the Calvin cycle in plants."
+  },
+  "examples": [
+   {
+    "label": "RELEVANT",
+    "title": "Calvin Cycle Explained | Carbon Fixation in Photosynthesis",
+    "description": "RuBisCO, ATP and NADPH, and how plants make glucose in the stroma."
+   },
+   {
+    "label": "RELEVANT",
+    "title": "Light dependent reactions of photosynthesis",
+    "description": "Photosystems, the thylakoid membrane and the electron transport chain."
+   },
+   {
+    "label": "PARTIALLY_RELEVANT",
+    "title": "Cellular respiration and the Krebs cycle",
+    "description": "How cells make ATP in the mitochondria."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Funny cats vs cucumbers compilation",
+    "description": "Hilarious cat reactions."
+   },
+   {
+    "label": "DISTRACTING",
+    "title": "Minecraft survival series episode 50",
+    "description": "Building a base and fighting the ender dragon."
+   }
+  ]
+ }
+]

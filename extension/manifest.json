@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "FocusAI",
+  "version": "0.1.0",
+  "description": "Context-aware focus assistant: allows, warns or blocks pages based on what you are studying right now.",
+  "permissions": ["storage", "alarms", "notifications"],
+  "host_permissions": ["http://127.0.0.1:8000/*", "http://localhost:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "FocusAI" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "exclude_matches": [
+        "http://localhost:5173/*", "http://127.0.0.1:5173/*",
+        "http://localhost:8000/*", "http://127.0.0.1:8000/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["http://localhost:5173/*", "http://127.0.0.1:5173/*"],
+      "js": ["sync.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

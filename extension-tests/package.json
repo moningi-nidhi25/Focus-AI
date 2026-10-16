@@ -1,0 +1,7 @@
+{
+  "name": "focusai-extension-tests",
+  "private": true,
+  "description": "Node tests for the FocusAI Chrome extension (kept outside extension/ so Chrome does not load node_modules)",
+  "scripts": { "test": "node --test --test-timeout=120000 \"tests/*.test.js\"" },
+  "devDependencies": { "jsdom": "^26.0.0" }
+}
